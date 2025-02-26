@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-box {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .image-box img {
+            width: 150px;
+        }
+        h1 {
+            color: #4a4a4a;
+        }
+        p {
+            margin: 10px 0;
+            color: #6a6a6a;
+        }
+        .input-box {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 250px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4a4a4a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .countdown div {
+            background: #4a4a4a;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            min-width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="https://via.placeholder.com/150" alt="Coming Soon">
+        </div>
+        <h1>Coming Soon</h1>
+        <p>Grace Salon is your destination for a touch of elegance. Our salon is designed to make you feel pampered, every step of the way.</p>
+        <div class="input-box">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+        <div class="countdown">
+            <div><span id="days">22</span><br>Days</div>
+            <div><span id="hours">05</span><br>Hours</div>
+            <div><span id="minutes">20</span><br>Minutes</div>
+            <div><span id="seconds">35</span><br>Seconds</div>
+        </div>
+    </div>
+</body>
+</html>
