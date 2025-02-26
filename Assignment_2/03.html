@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            height: 100vh;
+            background: url('https://source.unsplash.com/1600x900/?nachos,food') no-repeat center center/cover;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 800px;
+        }
+        .left {
+            flex: 1;
+            padding: 20px;
+            background: rgba(200, 200, 200, 0.3);
+            border-radius: 10px;
+        }
+        .left h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid black;
+            padding: 5px;
+        }
+        .input-group input {
+            border: none;
+            background: transparent;
+            outline: none;
+            flex: 1;
+            padding: 5px;
+            font-size: 16px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .back {
+            background: white;
+            border: 2px solid black;
+        }
+        .signup {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Welcome!</h1>
+            <div class="input-group">
+                <span>🌐</span>
+                <input type="text" placeholder="Enter your Google ID">
+            </div>
+            <div class="input-group">
+                <span>📝</span>
+                <input type="text" placeholder="Enter Your No">
+            </div>
+            <div class="input-group">
+                <span>📄</span>
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="input-group">
+                <span>🔒</span>
+                <input type="password" placeholder="Enter Password">
+            </div>
+            <div class="input-group">
+                <span>🛡️</span>
+                <input type="password" placeholder="Reenter Password">
+            </div>
+            <div class="buttons">
+                <button class="back">Back</button>
+                <button class="signup">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
